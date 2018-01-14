@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func messageButtonTapped(_ sender: UIButton) {
         
         // Alert Controller to pick Mail or Messages
-        let alertController = UIAlertController(title: "How do you wanto to send the message?", message: nil, preferredStyle: .actionSheet)
+        let alertController = UIAlertController(title: "How do you want to send the message?", message: nil, preferredStyle: .actionSheet)
         
         // Mail button
         // - first checks if the device is able to send mail to present button to user.
@@ -66,7 +66,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             let messageComposer = MFMessageComposeViewController()
             messageComposer.messageComposeDelegate = self
             
-            let messagesAction = UIAlertAction(title: "Message", style: .default, handler: {action in
+            let messagesAction = UIAlertAction(title: "Messages", style: .default, handler: {action in
                 
                 // configuring fields of the interface
                 messageComposer.recipients = ["---+++----"]
