@@ -61,9 +61,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcp-81-jLr">
-                                                <rect key="frame" x="262.5" y="0.0" width="82.5" height="28"/>
+                                                <rect key="frame" x="87.5" y="0.0" width="82.5" height="28"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="Email"/>
+                                                <state key="normal" title="Message"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="4"/>
@@ -77,10 +77,12 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="emailButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pv8-5h-4Ji"/>
+                                                    <action selector="messageButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHK-Rb-ti9"/>
+                                                    <action selector="photosButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKI-Qu-y1Y"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpd-M8-S5g">
-                                                <rect key="frame" x="87.5" y="0.0" width="82.5" height="28"/>
+                                                <rect key="frame" x="175" y="0.0" width="82.5" height="28"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <state key="normal" title="Safari"/>
                                                 <userDefinedRuntimeAttributes>
@@ -99,9 +101,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eL-PK-UNK">
-                                                <rect key="frame" x="175" y="0.0" width="82.5" height="28"/>
+                                                <rect key="frame" x="262.5" y="0.0" width="82.5" height="28"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="Camera"/>
+                                                <state key="normal" title="Photos"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="4"/>
